@@ -1,4 +1,3 @@
-import {useState, useReducer} from "react";
 import "./App.css";
 
 import NavBar from "./components/NavBar";
@@ -10,7 +9,6 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Switch,
-	Link,
 	Redirect,
 } from "react-router-dom";
 
